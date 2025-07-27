@@ -1,0 +1,297 @@
+{
+    "intents": [
+        {
+            "tag": "sapaan",
+            "patterns": [
+                "Halo",
+                "Hallo",
+                "Hai",
+                "Selamat pagi",
+                "Selamat siang",
+                "Selamat sore",
+                "Selamat malam",
+                "pagi",
+                "siang",
+                "sore",
+                "malam"
+            ],
+            "responses": [
+                "Hallo, selamat datang di Aplikasi Chatbot Persyaratan Administrasi Kependudukan Kantor Kecamatan Brebes.",
+                "Selamat pagi/siang/sore/malam! Ada yang perlu ditanyakan?"
+            ],
+            "context": [""]
+        },
+        {
+            "tag": "tanya_kabar",
+            "patterns": [
+                "Apa kabar?",
+                "Bagaimana hari ini?",
+                "Bagaimana kabarmu?",
+                "Apakabar?",
+                "Ada kabar apa?",
+                "Apa kabar hari ini?"
+            ],
+            "responses": [
+                "Saya baik, terima kasih!",
+                "Saya siap membantu Anda.",
+                "Kabar baik! Bagaimana dengan Anda?"
+            ],
+            "context": [""]
+        },
+        {
+            "tag": "tidak_dikenali",
+            "patterns": ["", "", "", "", ""],
+            "responses": [
+                "Maaf, saya tidak mengerti.",
+                "Saya tidak tahu.",
+                "Jika Anda memiliki pertanyaan lain jangan ragu untuk bertanya.",
+                "Kata di luar kemampuan saya.",
+                "Kalimat tidak dipahami."
+            ],
+            "context": [""]
+        },
+        {
+            "tag": "terima_kasih",
+            "patterns": [
+                "Terima kasih",
+                "Terima kasih banyak",
+                "Makasih",
+                "Makasih banyak",
+                "Terima kasih atas bantuannya",
+                "Terima kasih ya",
+                "Makasih ya",
+                "Terima kasih banyak atas informasinya",
+                "Terima kasih atas perhatiannya",
+                "Matur nuwun",
+                "Suwun",
+                "Trimakasih"
+            ],
+            "responses": [
+                "Terima kasih! Senang bisa membantu Anda.",
+                "Sama-sama! Jika Anda memiliki pertanyaan lain, jangan ragu untuk bertanya."
+            ],
+            "context": [""]
+        },
+        {
+            "tag": "ktp_hilang",
+            "patterns": [
+                "Apa saja persyaratan untuk mencetak ulang KTP yang hilang?",
+                "KTP hilang",
+                "Hilang"
+            ],
+            "responses": [
+                "Anda bisa melakukan pendaftaran online dengan melengkapi persyaratan scan Kartu Keluarga dan Surat Keterangan Kehilangan KTP dari Polsek setempat."
+            ],
+            "context": [""]
+        },
+        {
+            "tag": "ktp_rusak",
+            "patterns": [
+                "Apa saja persyaratan untuk mencetak ulang KTP yang rusak?",
+                "KTP rusak",
+                "Rusak"
+            ],
+            "responses": [
+                "Anda bisa melakukan pendaftaran online dengan melengkapi persyaratan scan Kartu Keluarga dan KTP yang rusak."
+            ],
+            "context": [""]
+        },
+        {
+            "tag": "ktp_perubahan_data",
+            "patterns": [
+                "Apa saja persyaratan untuk mencetak ulang KTP karena ganti status?",
+                "KTP ganti status",
+                "Apa saja persyaratan untuk mencetak ulang KTP karena perpindahan alamat?",
+                "Apa saja persyaratan untuk mencetak ulang KTP karena pergantian alamat?",
+                "Apa saja persyaratan untuk mencetak ulang KTP karena perpindahan RT?",
+                "Apa saja persyaratan untuk mencetak ulang KTP karena perubahan RT?",
+                "Apa saja persyaratan untuk mencetak ulang KTP karena perpindahan RW?",
+                "Apa saja persyaratan untuk mencetak ulang KTP karena perubahan RW?",
+                "KTP ganti alamat",
+                "KTP pindah alamat",
+                "Apa saja persyaratan untuk mencetak ulang KTP karena ganti pekerjaan?",
+                "KTP ganti pekerjaan",
+                "KTP perubahan"
+            ],
+            "responses": [
+                "Anda bisa melakukan pendaftaran online dengan melengkapi persyaratan scan Kartu Keluarga terbaru dan KTP lama."
+            ],
+            "context": [""]
+        },
+        {
+            "tag": "kk_hilang",
+            "patterns": [
+                "Apa saja persyaratan untuk mencetak ulang Kartu Keluarga yang hilang?",
+                "KK hilang",
+                "Kartu Keluarga hilang"
+            ],
+            "responses": [
+                "Anda bisa langsung datang ke kecamatan/Mall Pelayanan Publik/Disdukcapil dengan membawa fotocopy Kartu Keluarga dan Surat Keterangan Kehilangan KK dari Polsek setempat."
+            ],
+            "context": [""]
+        },
+        {
+            "tag": "kk_rusak",
+            "patterns": [
+                "Apa saja persyaratan untuk mencetak ulang Kartu Keluarga yang rusak?",
+                "KK rusak",
+                "Kartu Keluarga rusak"
+            ],
+            "responses": [
+                "Anda bisa langsung datang ke kecamatan/Mall Pelayanan Publik/Disdukcapil dengan membawa fotocopy Kartu Keluarga yang rusak dan fotocopy buku nikah/Akta Kematian pasangan/Akta Perceraian."
+            ],
+            "context": [""]
+        },
+        {
+            "tag": "kk_perubahan_pendidikan",
+            "patterns": [
+                "Apa saja persyaratan untuk membuat Kartu Keluarga karena perubahan pendidikan?",
+                "KK ganti pendidikan",
+                "KK rubah pendidikan",
+                "Kartu Keluarga ganti pendidikan",
+                "Kartu Keluarga rubah pendidikan"
+            ],
+            "responses": [
+                "Anda bisa langsung datang ke kecamatan/Mall Pelayanan Publik/Disdukcapil dengan membawa Kartu Keluarga asli, fotocopy ijazah terakhir dan fotocopy buku nikah orangtua (opsional)."
+            ],
+            "context": [""]
+        },
+        {
+            "tag": "kk_penambahan_anggota",
+            "patterns": [
+                "Apa saja persyaratan untuk membuat Kartu Keluarga karena penambahan anggota baru?",
+                "Apa saja persyaratan untuk membuat Kartu Keluarga karena penambahan anak?",
+                "Apa saja persyaratan untuk membuat Kartu Keluarga karena penambahan bayi baru lahir?",
+                "KK penambahan anggota",
+                "KK penambahan anak",
+                "KK penambahan bayi baru lahir",
+                "Kartu Keluarga penambahan anggota",
+                "Kartu Keluarga penambahan anak",
+                "Kartu Keluarga penambahan bayi baru lahir"
+            ],
+            "responses": [
+                "Anda bisa langsung datang ke kecamatan/Mall Pelayanan Publik/Disdukcapil dengan membawa Kartu Keluarga asli, fotocopy buku nikah dan Surat Keterangan Lahir dari RS/Bidan/Desa."
+            ],
+            "context": [""]
+        },
+        {
+            "tag": "kk_perubahan_status_menikah",
+            "patterns": [
+                "Apa saja persyaratan untuk membuat Kartu Keluarga karena baru menikah?",
+                "KK baru menikah",
+                "Kartu Keluarga baru menikah"
+            ],
+            "responses": [
+                "Anda bisa langsung datang ke kecamatan/Mall Pelayanan Publik/Disdukcapil dengan membawa Kartu Keluarga asli, fotocopy buku nikah, Surat Pengantar KK dari desa/kelurahan dan Surat Keterangan Pindah dari daerah asal apabila ada kepindahan."
+            ],
+            "context": [""]
+        },
+        {
+            "tag": "kk_perubahan_status_cerai_hidup",
+            "patterns": [
+                "Apa saja persyaratan untuk membuat Kartu Keluarga karena perubahan status cerai hidup?",
+                "KK perubahan status cerai hidup",
+                "Kartu Keluarga perubahan status cerai hidup"
+            ],
+            "responses": [
+                "Anda bisa langsung datang ke kecamatan/Mall Pelayanan Publik/Disdukcapil dengan membawa Kartu Keluarga asli, fotocopy akta perceraian dan Surat Pengantar KK dari desa/kelurahan."
+            ],
+            "context": [""]
+        },
+        {
+            "tag": "kk_perubahan_status_cerai_mati",
+            "patterns": [
+                "Apa saja persyaratan untuk membuat Kartu Keluarga karena perubahan status cerai mati?",
+                "KK perubahan cerai mati",
+                "Kartu Keluarga perubahan cerai mati"
+            ],
+            "responses": [
+                "Anda bisa langsung datang ke kecamatan/Mall Pelayanan Publik/Disdukcapil dengan membawa Kartu Keluarga asli, fotocopy akta kematian pasangan dan Surat Pengantar KK dari desa/kelurahan."
+            ],
+            "context": [""]
+        },
+        {
+            "tag": "akta_kematian_hilang",
+            "patterns": [
+                "Apa saja persyaratan untuk mencetak ulang Akta kematian yang hilang?",
+                "Persyaratan Akta Kematian hilang",
+                "Akta Kematian hilang"
+            ],
+            "responses": [
+                "Anda bisa langsung datang ke Mall Pelayanan Publik/Disdukcapil dengan membawa fotocopy Kartu Keluarga, fotocopy Akta Kematian yang hilang (opsional), surat keterangan kematian dari desa dan Surat Keterangan Kehilangan Akta dari Polsek setempat."
+            ],
+            "context": [""]
+        },
+        {
+            "tag": "akta_kelahiran_hilang",
+            "patterns": [
+                "Apa saja persyaratan untuk mencetak ulang Akta kelahiran yang hilang?",
+                "Persyaratan Akta kelahiran hilang",
+                "Akta Kelahiran hilang"
+            ],
+            "responses": [
+                "Anda bisa langsung datang ke Mall Pelayanan Publik/Disdukcapil dengan membawa fotocopy Kartu Keluarga, fotocopy Akta kelahiran yang hilang (opsional), surat keterangan kelahiran dari desa dan Surat Keterangan Kehilangan Akta dari Polsek setempat."
+            ],
+            "context": [""]
+        },
+        {
+            "tag": "akta_kelahiran_rusak",
+            "patterns": [
+                "Apa saja persyaratan untuk mencetak ulang Akta kelahiran yang rusak?",
+                "Persyaratan Akta kelahiran rusak",
+                "Akta Kelahiran rusak"
+            ],
+            "responses": [
+                "Anda bisa langsung datang ke Mall Pelayanan Publik/Disdukcapil dengan membawa fotocopy Kartu Keluarga, fotocopy Akta kelahiran yang rusak (opsional), surat keterangan kelahiran dari desa dan Surat Keterangan Kehilangan Akta dari Polsek setempat."
+            ],
+            "context": [""]
+        },
+        {
+            "tag": "akta_kematian_rusak",
+            "patterns": [
+                "Apa saja persyaratan untuk mencetak ulang Akta kematian yang rusak?",
+                "Persyaratan Akta kematian rusak",
+                "Akta Kematian rusak"
+            ],
+            "responses": [
+                "Anda bisa langsung datang ke Mall Pelayanan Publik/Disdukcapil dengan membawa fotocopy Kartu Keluarga, fotocopy Akta kematian yang rusak (opsional), surat keterangan kematian dari desa dan Surat Keterangan Kehilangan Akta dari Polsek setempat."
+            ],
+            "context": [""]
+        },
+        {
+            "tag": "akta_kematian_baru",
+            "patterns": [
+                "Apa saja persyaratan untuk membuat Akta kematian yang baru?",
+                "Persyaratan Akta kematian baru",
+                "Akta Kematian baru"
+            ],
+            "responses": [
+                "Anda bisa langsung datang ke Mall Pelayanan Publik/Disdukcapil dengan membawa fotocopy Kartu Keluarga, surat keterangan kematian dari desa/RS, foto copy KTP pelapor dan dua saksi."
+            ],
+            "context": [""]
+        },
+        {
+            "tag": "akta_kelahiran_baru",
+            "patterns": [
+                "Apa saja persyaratan untuk membuat Akta kelahiran yang baru?",
+                "Persyaratan Akta kelahiran baru",
+                "Akta kelahiran baru"
+            ],
+            "responses": [
+                "Anda bisa langsung datang ke Mall Pelayanan Publik/Disdukcapil dengan membawa fotocopy Kartu Keluarga,membawa foto copy buku nikah orang tua yang sudah di legalisir dan surat keterangan kelahiran dari desa/RS, foto copy KTP pelapor dan dua saksi."
+            ],
+            "context": [""]
+        },
+        {
+            "tag": "tidak_dikenali",
+            "patterns": ["", "", "", "", ""],
+            "responses": [
+                "Maaf, saya tidak mengerti.",
+                "Saya tidak paham.",
+                "Saya tidak tahu.",
+                "Kata di luar kemampuan saya."
+            ],
+            "context": [""]
+        }
+    ]
+}
